@@ -12,6 +12,15 @@ It supports MacOS and Linux OS only.
 bash ./no-cors-chrome.sh
 ```
 
+### Run it on MacOS.
+
+Make sure the path of Chrome is correct. If not, replace 
+
+``` bash
+    # Replace `/Applications/Google\` with the correct path if Chrome doesn't install in default path.
+    open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ ...
+```
+
 ### Run it with Node project.
 
 Run the script with the starting script.
